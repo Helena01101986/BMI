@@ -5,6 +5,6 @@ public class Main {
         double height = 1.60;
         double bmi = service.calculate(weight, height);
 
-        System.out.println(bmi);
+        System.out.println("Ваш индекс веса составил " + bmi);
     }
 }
